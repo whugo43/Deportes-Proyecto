@@ -1,0 +1,133 @@
+.search-form .form-group {
+  float: right !important;
+  transition: all 0.35s, border-radius 0s;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+}
+.search-form .form-group input.form-control {
+  padding-right: 20px;
+  border: 0 none;
+  background: transparent;
+  box-shadow: none;
+  display:block;
+}
+.search-form .form-group input.form-control::-webkit-input-placeholder {
+  display: none;
+}
+.search-form .form-group input.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  display: none;
+}
+.search-form .form-group input.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  display: none;
+}
+.search-form .form-group input.form-control:-ms-input-placeholder {
+  display: none;
+}
+.search-form .form-group:hover,
+.search-form .form-group.hover {
+  width: 100%;
+  border-radius: 4px 25px 25px 4px;
+}
+
+body {
+    min-height: 1025px;
+    padding-top: 50px;
+}
+.blog-post{
+    border-width: initial;
+    border-style: solid;
+    border-image: initial;
+    margin: auto 0px;
+    padding: 0px 0px 250px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.evento, .deporte{
+	border-color: #ffffff;
+}
+.blog-main{
+	 margin-top: 30px;
+}
+.ubicacion{
+	 margin-top: 30px;
+}
+.blog-post {
+    margin-bottom: 30px;
+}
+.carousel {
+    margin-bottom: 37px;
+}
+
+.navbar{
+	background-color: #00517a;
+	border-color: #00517a;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: black;
+    background-color: #00517a;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.col-md-3 img{
+  height: 200px;
+  width: 100%;
+}
+.col-md-3 .container-fluid img{
+  height: 235px;
+  width: 200px;
+}
+#mapa {
+    position: relative;
+    left: 16px;
+    top: -25px;
+}
+.marco{
+	background-color: #00517a;
+}
+.col-md-3 .marco p{
+	text-align: center;
+	color: white;
+}
+/**
+.carousel{
+    top: -21px;
+    height: 450px;
+
+}
+.item,.carousel-inner{
+	height: 450px;
+}
+**/
+
+h3{
+	color:black;
+}
+
+.blog-nav-item {
+    color: #fbfbfb;
+}
+p{ text-align: justify;}
+.entrenador img{
+	width: 150px;
+	height: 150px;
+	display:block;
+margin:auto;
+	
+}
+
+.entrenador h3{
+	text-align: center;
+}
