@@ -1,3 +1,6 @@
+.col-md-3{
+  margin-top: 15px;
+}
 .search-form .form-group {
   float: right !important;
   transition: all 0.35s, border-radius 0s;
@@ -36,7 +39,7 @@
 }
 
 body {
-    min-height: 1025px;
+    min-height: 1024px;
     padding-top: 50px;
 }
 .blog-post{
@@ -44,7 +47,7 @@ body {
     border-style: solid;
     border-image: initial;
     margin: auto 0px;
-    padding: 0px 0px 250px;
+    padding: 0px 0px 275px;
     padding-top: 10px;
     padding-left: 10px;
     border-radius: 5px;
