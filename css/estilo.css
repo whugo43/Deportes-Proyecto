@@ -104,16 +104,18 @@ body {
 	text-align: center;
 	color: white;
 }
-/**
+.carousel-caption{
+  top: 14em;
+}
 .carousel{
-    top: -21px;
-    height: 450px;
+   
+    height: 300px;
 
 }
 .item,.carousel-inner{
-	height: 450px;
+	height: 300px;
 }
-**/
+
 
 h3{
 	color:black;
