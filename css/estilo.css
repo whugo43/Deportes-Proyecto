@@ -548,13 +548,24 @@ img {
   }
 }
 
-@media (max-width: 650px)   {
+@media screen and (max-width: 650px)   {
   .ocultar {
     display:none;
     display: none;
 }
 .blog-post{
  
+    padding: 0px 0px 1em;
+   
+}
+}
+@media screen and (max-height: 650px)   {
+  .ocultar {
+    display:none;
+    display: none;
+}
+.blog-post{
+
     padding: 0px 0px 1em;
    
 }
