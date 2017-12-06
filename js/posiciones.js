@@ -143,24 +143,32 @@ Object.keys(jsonObj).map(clave =>{
 
     var partjugado = document.createElement("td");
     partjugado.appendChild(document.createTextNode(jsonObj[clave].partjugado));
+    partjugado.setAttribute("class","ocultar");
+
     var ganado = document.createElement("td");
     ganado.appendChild(document.createTextNode(jsonObj[clave].ganado));
+    ganado.setAttribute("class","ocultar");
 
     var empatado = document.createElement("td");
     empatado.appendChild(document.createTextNode(jsonObj[clave].empatado));
+    empatado.setAttribute("class","ocultar");
 
     var perdido = document.createElement("td");
     perdido.appendChild(document.createTextNode(jsonObj[clave].perdido));
+    perdido.setAttribute("class","ocultar");
 
     var golfavor = document.createElement("td");
     golfavor.appendChild(document.createTextNode(jsonObj[clave].golfavor));
+    golfavor.setAttribute("class","ocultar");
 
     var golcontra = document.createElement("td");
     golcontra.appendChild(document.createTextNode(jsonObj[clave].golcontra));
+    golcontra.setAttribute("class","ocultar");
 
     var goldiferencia = document.createElement("td");
     goldiferencia.appendChild(document.createTextNode(jsonObj[clave].goldiferencia));
-    
+    goldiferencia.setAttribute("class","ocultar");
+
     newTr.appendChild(posicion);
     newTr.appendChild(equipo);
     newTr.appendChild(punto);

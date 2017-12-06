@@ -1,6 +1,13 @@
+@media screen and (max-width: 800px) {
+  .ocultar {
+    display:none;
+    display: none;
+}
+}
 .col-md-3{
   margin-top: 15px;
 }
+
 .search-form .form-group {
   float: right !important;
   transition: all 0.35s, border-radius 0s;
