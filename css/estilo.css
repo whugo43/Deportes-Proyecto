@@ -3,6 +3,16 @@
     display:none;
     display: none;
 }
+.blog-post{
+    border-width: initial;
+    border-style: solid;
+    border-image: initial;
+    margin: auto 0px;
+    padding: 0px 0px 1em;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
 }
 .col-md-3{
   margin-top: 15px;
