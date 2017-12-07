@@ -1,3 +1,7 @@
+.navbar-default .navbar-brand:hover,
+ .navbar-default .navbar-brand.hover{
+    color: white;
+}
   footer  div p{
    text-align: center; 
   }
