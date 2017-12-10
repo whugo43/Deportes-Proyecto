@@ -322,7 +322,7 @@ img
 
 .navbar-default .navbar-brand:hover,
  .navbar-default .navbar-brand.hover{
-    color: white;
+    color: #FFFFFF;
 }
   footer  div p{
    text-align: center; 
@@ -407,7 +407,7 @@ body {
     color: white;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: black;
+    color: #000000;
     background-color: #00517a;
 }
 
@@ -449,7 +449,7 @@ body {
 
 
 h3{
-	color:black;
+	color:#000000;
 }
 
 .blog-nav-item {
