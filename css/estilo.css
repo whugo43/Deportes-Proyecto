@@ -470,6 +470,8 @@ margin:auto;
     height: 100px;
     width: 100%;
 }
+
+}
 @media screen and (max-height: 650px)   {
   .ocultar {
     display:none;
@@ -484,13 +486,24 @@ margin:auto;
     height: 100px;
     width: 100%;
 }
+
+}
+
 @media screen and (max-width: 388px){
   .marco p{
     font-size: 10px;
   }
+  .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a {
+    color: #303641;
+    font-size: 1em;
+}
 }
 @media screen and (max-width: 486px){
   .marco p{
     font-size: 10px;
   }
+  .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a {
+    color: #303641;
+    font-size: 1em;
+}
 }
