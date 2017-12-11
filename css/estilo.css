@@ -23,6 +23,13 @@ img
 {
   vertical-align: middle;
 }
+
+#myCarousel div div img
+{
+	height:300px;
+	width :900px;
+}
+
 .img-responsive
 {
   display: block;
